@@ -156,4 +156,3 @@ var_dump('5' == 5);         // bool(true)
 var_dump('05' == 5);        // bool(true)
 var_dump('05' == '5');      // bool(true)
 
-?>

@@ -6,4 +6,3 @@ foreach ($arr as $item){
 
 }
 echo 'Hello World!';
-?>
