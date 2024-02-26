@@ -4,6 +4,7 @@ echo '<br>';
 echo 7;
 echo '<br>';
 echo 5/2;
+?>
 
 //Вам нужно в настройках phpStorm File / Settings выбрать пункт Build, Execution, Deployment / Deployment создать новое соединение
 //

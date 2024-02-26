@@ -29,3 +29,5 @@ $numeric = (int) $string2;
 
 $x=true;
 $y=false;
+
+?>
