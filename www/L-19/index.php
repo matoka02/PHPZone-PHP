@@ -16,7 +16,7 @@ $login = !empty($_GET['login']) ? $_GET['login'] : 'логин не переда
 $password = !empty($_GET['password']) ? $_GET['password'] : 'пароль не передан!';
 ?>
 
-<html>
+<html lang="ru">
 <head>
   <title>Знакомство с GET-запросами</title>
 </head>
@@ -35,7 +35,7 @@ $password = !empty($_GET['password']) ? $_GET['password'] : 'пароль не �
 echo '<hr>';
 ?>
 
-<html>
+<html lang="ru">
 <head>
   <title>Форма входа</title>
 </head>
