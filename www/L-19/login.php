@@ -8,7 +8,7 @@ if ($login === 'admin' && $password === 'Pa$$w0rd') {
   $isAuthorized = false;
 }
 ?>
-<html>
+<html lang="ru">
 <head>
   <title>Результат авторизации</title>
 </head>
@@ -33,7 +33,7 @@ if ($login === 'admin' && $password === 'Pa$$w0rd') {
 }
 ?>
 
-<html>
+<html lang="ru">
 <head>
   <title>Результат авторизации</title>
 </head>
