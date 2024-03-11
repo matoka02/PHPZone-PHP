@@ -1,4 +1,6 @@
 <?php
+
+/*---Authorization system using cookies in PHP---*/
 require __DIR__ . '/auth.php';
 $login = getUserLogin();
 ?>
