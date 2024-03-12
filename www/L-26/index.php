@@ -19,7 +19,7 @@ foreach ($files as $fileName) {
 var_dump($links);
 
 foreach ($links as $link):?>
-  <a href="<?= $link ?>"><img src="<?= $link ?>" height="80px"></a>
+  <a href="<?= $link ?>"><img src="<?= $link ?>" alt="<?= $link ?>" height="80px"></a>
 <?php endforeach; ?>
 </body>
 </html>
