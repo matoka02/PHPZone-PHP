@@ -1,3 +1,7 @@
+<?php
+/*---Writing a photo album in PHP---*/
+?>
+
 <html lang="ru">
 <head>
   <title>Фотоальбом</title>
