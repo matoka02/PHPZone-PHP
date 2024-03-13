@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48aba7cb-7928-47d1-b3d7-4ce952823a07" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/www/EL-03/index.php" afterDir="false" />
+    <list default="true" id="48aba7cb-7928-47d1-b3d7-4ce952823a07" name="Changes" comment="oop-lesson-07">
+      <change afterPath="$PROJECT_DIR$/www/EL-08/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,25 +68,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "PHP Remote Debug.XDebug.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/OSPanel/domains/myproject.loc/www",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;PHP Remote Debug.XDebug.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/OSPanel/domains/myproject.loc/www&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\myproject.loc\www" />
@@ -140,7 +140,11 @@
       <workItem from="1710233490058" duration="4690000" />
       <workItem from="1710249639622" duration="1625000" />
       <workItem from="1710256057006" duration="299000" />
-      <workItem from="1710268341151" duration="1654000" />
+      <workItem from="1710268341151" duration="3779000" />
+      <workItem from="1710327641191" duration="321000" />
+      <workItem from="1710328589763" duration="2917000" />
+      <workItem from="1710331864497" duration="167000" />
+      <workItem from="1710332047912" duration="2992000" />
     </task>
     <task id="LOCAL-00001" summary="fixed end of code">
       <option name="closed" value="true" />
@@ -390,7 +394,47 @@
       <option name="project" value="LOCAL" />
       <updated>1710268767440</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="oop-lesson-03">
+      <option name="closed" value="true" />
+      <created>1710270258849</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1710270258849</updated>
+    </task>
+    <task id="LOCAL-00033" summary="oop-lesson-04">
+      <option name="closed" value="true" />
+      <created>1710272107161</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1710272107161</updated>
+    </task>
+    <task id="LOCAL-00034" summary="oop-lesson-05">
+      <option name="closed" value="true" />
+      <created>1710330757472</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1710330757472</updated>
+    </task>
+    <task id="LOCAL-00035" summary="oop-lesson-06">
+      <option name="closed" value="true" />
+      <created>1710331700008</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1710331700008</updated>
+    </task>
+    <task id="LOCAL-00036" summary="oop-lesson-07">
+      <option name="closed" value="true" />
+      <created>1710333934201</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1710333934201</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,11 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Initial commit" />
-    <MESSAGE value="fixed end of code" />
-    <MESSAGE value="lesson-09" />
-    <MESSAGE value="fixed remoted tag" />
-    <MESSAGE value="lesson-10" />
     <MESSAGE value="lesson-11" />
     <MESSAGE value="lesson-12" />
     <MESSAGE value="lesson-13" />
@@ -446,7 +485,12 @@
     <MESSAGE value="oop-lesson-01" />
     <MESSAGE value="oop-lesson-02" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="oop-lesson-03" />
+    <MESSAGE value="oop-lesson-04" />
+    <MESSAGE value="oop-lesson-05" />
+    <MESSAGE value="oop-lesson-06" />
+    <MESSAGE value="oop-lesson-07" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop-lesson-07" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
