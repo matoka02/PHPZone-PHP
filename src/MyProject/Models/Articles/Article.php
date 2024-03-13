@@ -1,8 +1,7 @@
 <?php
 
-//namespace src\MyProject\Articles;
-//namespace Articles;
-//use Users\User;
+namespace src\MyProject\Models\Articles;
+use src\MyProject\Models\Users\User;
 
 class Article
 {
@@ -28,6 +27,7 @@ class Article
   }
 
   public function getAuthor(): User
+    //public function getAuthor(): \MyProject\Models\Users\User
   {
     return $this->author;
   }

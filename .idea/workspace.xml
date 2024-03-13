@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48aba7cb-7928-47d1-b3d7-4ce952823a07" name="Changes" comment="oop-lesson-07">
-      <change beforePath="$PROJECT_DIR$/www/EL-08/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/EL-08/index.php" afterDir="false" />
+    <list default="true" id="48aba7cb-7928-47d1-b3d7-4ce952823a07" name="Changes" comment="oop-lesson-09">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/EL-09/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/EL-09/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/EL-09/src/MyProject/Models/Articles/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyProject/Models/Articles/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/EL-09/src/MyProject/Models/Users/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyProject/Models/Users/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -433,7 +436,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710333934201</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="update settings">
+      <option name="closed" value="true" />
+      <created>1710343117891</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1710343117891</updated>
+    </task>
+    <task id="LOCAL-00038" summary="oop-lesson-09">
+      <option name="closed" value="true" />
+      <created>1710343593344</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1710343593344</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,8 +483,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lesson-11" />
-    <MESSAGE value="lesson-12" />
     <MESSAGE value="lesson-13" />
     <MESSAGE value="lesson-14" />
     <MESSAGE value="lesson-15" />
@@ -489,7 +506,9 @@
     <MESSAGE value="oop-lesson-05" />
     <MESSAGE value="oop-lesson-06" />
     <MESSAGE value="oop-lesson-07" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop-lesson-07" />
+    <MESSAGE value="update settings" />
+    <MESSAGE value="oop-lesson-09" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop-lesson-09" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
