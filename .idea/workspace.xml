@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48aba7cb-7928-47d1-b3d7-4ce952823a07" name="Changes" comment="oop-lesson-07">
-      <change afterPath="$PROJECT_DIR$/www/EL-08/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/EL-08/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/EL-08/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
