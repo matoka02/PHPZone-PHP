@@ -12,4 +12,8 @@ class MainController
   {
     echo 'Привет, ' . $name . '!';
   }
+  public function sayBay(string $name)
+  {
+    echo 'Пока, ' . $name;
+  }
 }
