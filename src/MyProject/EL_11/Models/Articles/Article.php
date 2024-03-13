@@ -27,7 +27,7 @@ class Article
   }
 
   public function getAuthor(): User
-    //public function getAuthor(): \MyProject\EL_11\Models\Users\User
+    //public function getAuthor(): src\MyProject\EL_11\Models\Users\User
   {
     return $this->author;
   }
