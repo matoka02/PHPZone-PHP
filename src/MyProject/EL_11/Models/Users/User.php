@@ -1,6 +1,6 @@
 <?php
 
-namespace src\MyProject\Models\Users;
+namespace src\EL_11\Models\Users;
 class User
 {
   private $name;

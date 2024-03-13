@@ -1,7 +1,7 @@
 <?php
 
-namespace src\MyProject\Models\Articles;
-use src\MyProject\Models\Users\User;
+namespace src\MyProject\EL_11\Models\Articles;
+use src\MyProject\EL_11\Models\Users\User;
 
 class Article
 {
@@ -27,7 +27,7 @@ class Article
   }
 
   public function getAuthor(): User
-    //public function getAuthor(): \MyProject\Models\Users\User
+    //public function getAuthor(): \MyProject\EL_11\Models\Users\User
   {
     return $this->author;
   }

@@ -1,6 +1,6 @@
 <?php
 
-namespace src\MyProject\Controllers;
+namespace src\MyProject\EL_11\Controllers;
 
 class MainController
 {

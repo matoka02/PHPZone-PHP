@@ -6,7 +6,7 @@ spl_autoload_register(function (string $className) {
   require_once __DIR__ . '/../../' . str_replace('\\', '/', $className) . '.php';
 });
 
-$controller = new \src\MyProject\Controllers\MainController();
+$controller = new \src\MyProject\EL_11\Controllers\MainController();
 // $controller->main();
 
 if (!empty($_GET['name'])) {
