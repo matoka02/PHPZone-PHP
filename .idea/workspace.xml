@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48aba7cb-7928-47d1-b3d7-4ce952823a07" name="Changes" comment="oop-lesson-09" />
+    <list default="true" id="48aba7cb-7928-47d1-b3d7-4ce952823a07" name="Changes" comment="add .gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -455,7 +455,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710345380788</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="oop-lesson-09">
+      <option name="closed" value="true" />
+      <created>1710345526387</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1710345526387</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add .gitignore">
+      <option name="closed" value="true" />
+      <created>1710345766354</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1710345766354</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +502,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lesson-13" />
     <MESSAGE value="lesson-14" />
     <MESSAGE value="lesson-15" />
     <MESSAGE value="lesson-16" />
@@ -511,7 +526,8 @@
     <MESSAGE value="oop-lesson-07" />
     <MESSAGE value="update settings" />
     <MESSAGE value="oop-lesson-09" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop-lesson-09" />
+    <MESSAGE value="add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
