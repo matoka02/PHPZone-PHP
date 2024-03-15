@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48aba7cb-7928-47d1-b3d7-4ce952823a07" name="Changes" comment="add .gitignore" />
+    <list default="true" id="48aba7cb-7928-47d1-b3d7-4ce952823a07" name="Changes" comment="oop-lesson-14">
+      <change afterPath="$PROJECT_DIR$/src/MyProject/EL_15/Controllers/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyProject/EL_15/Models/Articles/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyProject/EL_15/Models/Users/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyProject/EL_15/Services/Db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyProject/EL_15/View/View.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes_EL_15.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/EL_15/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/EL_15/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/EL_15/main/hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/EL_15/main/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/EL-15/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/EL-15/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/EL-15/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -65,31 +82,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;PHP Remote Debug.XDebug.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/OSPanel/domains/myproject.loc/www&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "PHP Remote Debug.XDebug.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/OSPanel/domains/myproject.loc/www/EL-14",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\myproject.loc\www\EL-14" />
       <recent name="C:\OSPanel\domains\myproject.loc\www" />
-      <recent name="C:\OSPanel\domains\myproject.loc\www\L-26" />
+      <recent name="C:\OSPanel\domains\myproject.loc\src\MyProject" />
+      <recent name="C:\OSPanel\domains\myproject.loc\src\templates" />
+      <recent name="C:\OSPanel\domains\myproject.loc\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\myproject.loc\src\templates\EL_13" />
+      <recent name="C:\OSPanel\domains\myproject.loc\src\templates" />
+      <recent name="C:\OSPanel\domains\myproject.loc\src\MyProject\EL-11" />
+      <recent name="C:\OSPanel\domains\myproject.loc\www\EL-12" />
       <recent name="C:\OSPanel\domains\myproject.loc\www" />
     </key>
   </component>
@@ -142,6 +167,8 @@
       <workItem from="1710328589763" duration="2917000" />
       <workItem from="1710331864497" duration="167000" />
       <workItem from="1710332047912" duration="2992000" />
+      <workItem from="1710355663770" duration="4071000" />
+      <workItem from="1710513523083" duration="5554000" />
     </task>
     <task id="LOCAL-00001" summary="fixed end of code">
       <option name="closed" value="true" />
@@ -471,7 +498,71 @@
       <option name="project" value="LOCAL" />
       <updated>1710345766354</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="update">
+      <option name="closed" value="true" />
+      <created>1710345860110</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1710345860110</updated>
+    </task>
+    <task id="LOCAL-00043" summary="oop-lesson-11">
+      <option name="closed" value="true" />
+      <created>1710349713473</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1710349713473</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add directory \src\MyProject\EL_11\">
+      <option name="closed" value="true" />
+      <created>1710354078328</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1710354078328</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fixed">
+      <option name="closed" value="true" />
+      <created>1710354287302</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1710354287302</updated>
+    </task>
+    <task id="LOCAL-00046" summary="oop-lesson-12">
+      <option name="closed" value="true" />
+      <created>1710354534579</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1710354534579</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update">
+      <option name="closed" value="true" />
+      <created>1710354670897</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1710354670897</updated>
+    </task>
+    <task id="LOCAL-00048" summary="oop-lesson-13">
+      <option name="closed" value="true" />
+      <created>1710360179834</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1710360179834</updated>
+    </task>
+    <task id="LOCAL-00049" summary="oop-lesson-14">
+      <option name="closed" value="true" />
+      <created>1710521034658</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1710521034658</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,12 +593,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lesson-14" />
-    <MESSAGE value="lesson-15" />
-    <MESSAGE value="lesson-16" />
-    <MESSAGE value="lesson-17" />
-    <MESSAGE value="lesson-18" />
-    <MESSAGE value="lesson-19" />
     <MESSAGE value="lesson-20" />
     <MESSAGE value="lesson-21" />
     <MESSAGE value="lesson-22" />
@@ -518,7 +603,6 @@
     <MESSAGE value="lesson-27" />
     <MESSAGE value="oop-lesson-01" />
     <MESSAGE value="oop-lesson-02" />
-    <MESSAGE value="update" />
     <MESSAGE value="oop-lesson-03" />
     <MESSAGE value="oop-lesson-04" />
     <MESSAGE value="oop-lesson-05" />
@@ -527,7 +611,14 @@
     <MESSAGE value="update settings" />
     <MESSAGE value="oop-lesson-09" />
     <MESSAGE value="add .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore" />
+    <MESSAGE value="oop-lesson-11" />
+    <MESSAGE value="add directory \src\MyProject\EL_11\" />
+    <MESSAGE value="fixed" />
+    <MESSAGE value="oop-lesson-12" />
+    <MESSAGE value="update" />
+    <MESSAGE value="oop-lesson-13" />
+    <MESSAGE value="oop-lesson-14" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop-lesson-14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
