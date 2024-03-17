@@ -1,6 +1,6 @@
 <?php
 
-/*---We extract articles on the website from the database---*/
+/*---ORM - Object Relational Mapping---*/
 
 
 spl_autoload_register(function (string $className) {
