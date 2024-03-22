@@ -1,6 +1,7 @@
 <?php
 
 /*---Insert using Active Record---*/
+/*---Delete in Active Record---*/
 
 // Перейти в браузере
 // http://127.0.0.1/openserver/phpmyadmin/index.php
@@ -34,4 +35,8 @@ $actionName = $controllerAndAction[1];
 
 $controller = new $controllerName();
 $controller->$actionName(...$matches);
+
+// создаём в нашем классе ActiveRecordEntity метод delete().
+// src/MyProject/EL_22/Models/ActiveRecordEntity.php
+
 
