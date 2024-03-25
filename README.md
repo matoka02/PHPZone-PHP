@@ -1,5 +1,10 @@
 # Старт
 
+1. запуск в терминале VSCode
+PS C:\OSPanel\domains> php -S localhost:5000
+2. переход на localhost:5000 в браузере
+http://myproject.loc/
+
 1. запуск сервера, 
 C:\OSPanel\Open Server Panel.exe
 2. в трее команда Запустить
@@ -54,3 +59,23 @@ C:\OSPanel\Open Server Panel.exe
 6. Изучаем абстрактные классы в PHP
 7. Статические методы и свойства в PHP
 8. Объектно-ориентированный подход в PHP
+
+## Уровень 2. Архитектура приложения
+9. Неймспейсы и автозагрузка в PHP
+10. Архитектура MVC - Model, View, Controller
+11. Controller в MVC
+12. Фронт-контроллер и роутинг в PHP
+13. View в MVC
+14. Создаём базу данных для будущего блога
+15. Класс для работы с базой данных
+16. Делаем вывод статей на сайте из базы данных
+17. ORM - Object Relational Mapping
+18. Реализуем Active Record в PHP
+19. Паттерн Singleton в PHP
+20. PHP Reflection API
+21. Обновление с помощью Active Record
+22. Вставка с помощью Active Record
+23. Удаление в Active Record
+24. CRUD-операции
+25. M в MVC
+26. Работа с исключениями в PHP
