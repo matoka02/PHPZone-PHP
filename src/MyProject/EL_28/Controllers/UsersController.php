@@ -3,6 +3,7 @@
 namespace src\MyProject\EL_28\Controllers;
 
 use src\MyProject\EL_28\Exceptions\InvalidArgumentException;
+use src\MyProject\EL_28\Exceptions\ActivationException;
 use src\MyProject\EL_28\Models\Users\User;
 use src\MyProject\EL_28\Models\Users\UserActivationService;
 use src\MyProject\EL_28\Services\EmailSender;
@@ -47,11 +48,28 @@ class UsersController
 
   public function activate(int $userId, string $activationCode)
   {
-    $user = User::getById($userId);
-    $isCodeValid = UserActivationService::checkActivationCode($user, $activationCode);
-    if ($isCodeValid) {
-      $user->activate();
-      echo 'OK!';
+    // $user = User::getById($userId);
+    // $isCodeValid = UserActivationService::checkActivationCode($user, $activationCode);
+    // if ($isCodeValid) {
+    //   $user->activate();
+    //   echo 'OK!';
+    // }
+    try {
+      $user = User::getById($userId);
+      if ($user == null) {
+        throw new ActivationException('Такой пользователь не существует');
+      }
+      $isCodeValid = UserActivationService::checkActivationCode($user, $activationCode);
+      if ($isCodeValid) {
+        throw new ActivationException('Код активации неверный');
+      } else {
+        $user->activate();
+        $this->view->renderHtml('EL_28/users/activationSuccessful.php');
+        UserActivationService::deleteActivationCode($user, $activationCode);
+        return;
+      }
+    } catch (ActivationException $e) {
+      $this->view->renderHtml('EL_28/users/activationFailed.php', ['error' => $e->getMessage()]);
     }
   }
 }
