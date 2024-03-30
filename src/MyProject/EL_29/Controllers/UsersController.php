@@ -81,7 +81,7 @@ class UsersController extends AbstractController
       try {
         $user = User::login($_POST);
         UsersAuthService::createToken($user);
-        header('Location: /');
+        header('Location: /EL-29/');
         exit();
       } catch (InvalidArgumentException $e) {
         $this->view->renderHtml('EL_29/users/login.php', ['error' => $e->getMessage()]);
@@ -89,5 +89,11 @@ class UsersController extends AbstractController
       }
     }
     $this->view->renderHtml('EL_29/users/login.php');
+  }
+
+  public function logout()
+  {
+    setcookie('token', '', -1, '/', '', false, true);
+    header('Location: /EL-29/');
   }
 }

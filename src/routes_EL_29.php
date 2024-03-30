@@ -9,5 +9,6 @@ return [
   '~^users/register$~' => [\src\MyProject\EL_29\Controllers\UsersController::class, 'signUp'],
   '~^users/(\d+)/activate/(.+)$~' => [\src\MyProject\EL_29\Controllers\UsersController::class, 'activate'],
   '~^users/login$~' => [\src\MyProject\EL_29\Controllers\UsersController::class, 'login'],
+  '~^users/logout~' => [\src\MyProject\EL_29\Controllers\UsersController::class, 'logout'],
   '~^$~' => [\src\MyProject\EL_29\Controllers\MainController::class, 'main'],
 ];
