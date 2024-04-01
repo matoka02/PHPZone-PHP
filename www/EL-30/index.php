@@ -42,4 +42,7 @@ try {
 } catch (\src\MyProject\EL_30\Exceptions\UnauthorizedException $e) {
   $view = new \src\MyProject\EL_30\View\View(__DIR__ . '/../../src/templates/EL_30/errors');
   $view->renderHtml('401.php', ['error' => $e->getMessage()], 401);
+} catch (\src\MyProject\EL_30\Exceptions\Forbidden $e) {
+  $view = new \src\MyProject\EL_30\View\View(__DIR__ . '/../../src/templates/EL_30/errors');
+  $view->renderHtml('403.php', ['error' => $e->getMessage()], 403);
 }

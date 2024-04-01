@@ -127,4 +127,8 @@ class User extends ActiveRecordEntity
   {
     $this->authToken = sha1(random_bytes(100)) . sha1(random_bytes(100));
   }
+
+  public function isAdmin(): bool{
+    return $this->role === 'admin';
+  }
 }

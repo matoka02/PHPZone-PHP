@@ -5,6 +5,7 @@ namespace src\MyProject\EL_30\Controllers;
 use src\MyProject\EL_30\Exceptions\InvalidArgumentException;
 use src\MyProject\EL_30\Exceptions\NotFoundException;
 use src\MyProject\EL_30\Exceptions\UnauthorizedException;
+use src\MyProject\EL_30\Exceptions\Forbidden;
 use src\MyProject\EL_30\Models\Articles\Article;
 use src\MyProject\EL_30\Models\Users\User;
 class ArticlesController extends AbstractController
@@ -50,6 +51,10 @@ class ArticlesController extends AbstractController
       throw new UnauthorizedException();
     }
 
+    if ($this->user->isAdmin()) {
+      throw new Forbidden();
+    }
+    
     if (!empty($_POST)) {
       try {
         $article = Article::createFormArray($_POST, $this->user);
