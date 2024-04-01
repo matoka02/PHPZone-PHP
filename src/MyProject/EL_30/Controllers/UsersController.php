@@ -85,6 +85,6 @@ class UsersController extends AbstractController
   public function logout()
   {
     setcookie('token', '', -1, '/', '', false, true);
-    header('Location: /EL-29/');
+    header('Location: /EL-30/');
   }
 }
