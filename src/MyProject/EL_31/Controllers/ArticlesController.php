@@ -25,15 +25,6 @@ class ArticlesController extends AbstractController
     /** @var Article $article */
     $article = Article::getById($articleId);
 
-    // if ($article === null) {
-    //   $this->view->renderHtml('EL_31/errors/404.php', [], 404);
-    //   return;
-    // }
-
-    // $article->setName('Новое название статьи');
-    // $article->setText('Новый текст статьи');
-    // $article->save();
-
     if ($article === null) {
       throw new NotFoundException();
     }
@@ -41,6 +32,11 @@ class ArticlesController extends AbstractController
     if ($this->user === null) {
       throw new UnauthorizedException();
     }
+
+    // проверка на администратора
+    if (!$this->user->isAdmin()) {
+      throw new Forbidden('Для доступа к данной странице необходимы права администратора!');
+  }
 
     if (!empty($_POST)) {
       try {
