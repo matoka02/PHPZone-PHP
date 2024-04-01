@@ -1,15 +1,17 @@
 # Старт
 
-1. запуск в терминале VSCode
+VSCode
+- запуск в терминале VSCode
 PS C:\OSPanel\domains> php -S localhost:5000
-2. переход на localhost:5000 в браузере
+- переход на localhost:5000 в браузере
 http://myproject.loc/
 
-1. запуск сервера, 
+PHPStorm
+- запуск сервера, 
 C:\OSPanel\Open Server Panel.exe
-2. в трее команда Запустить
-3. в PHPStorm открыть index.php в браузере
-4. или переход на http://myproject.loc/ в браузере
+- в трее команда Запустить
+- в PHPStorm открыть index.php в браузере
+- или переход на http://myproject.loc/ в браузере
 
 # Уроки PHP для начинающих
 
@@ -79,3 +81,10 @@ C:\OSPanel\Open Server Panel.exe
 24. CRUD-операции
 25. M в MVC
 26. Работа с исключениями в PHP
+
+## Уровень 3. Пишем блог на PHP
+27. Пишем регистрацию на сайте на PHP
+28. Система активации пользователей по email на PHP
+29. Пишем систему авторизации на PHP
+30. Добавляем статьи в блог на PHP
+31. Редактируем статьи в блоге на PHP
