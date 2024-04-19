@@ -18,7 +18,7 @@ class MainController extends AbstractController
   // public function __construct()
   // {
   //   $this->user = UsersAuthService::getUserByToken();
-  //   $this->view = new View(__DIR__ . '/../../../templates');
+  //   $this->view = new View(__DIR__ . '/../../../../templates');
   //   $this->view->setVar('user', $this->user);
   // }
   public function main()

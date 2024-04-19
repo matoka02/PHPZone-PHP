@@ -14,7 +14,7 @@ class MainController
 
   public function __construct()
   {
-    $this->view = new View(__DIR__ . '/../../../templates');
+    $this->view = new View(__DIR__ . '/../../../../templates');
     $this->db = new DB();
   }
   public function main()

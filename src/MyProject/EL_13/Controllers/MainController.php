@@ -8,7 +8,7 @@ class MainController
   private $view;
   public function __construct()
   {
-    $this->view = new View(__DIR__ . '/../../../templates');
+    $this->view = new View(__DIR__ . '/../../../../templates');
   }
   public function main()
   {
@@ -16,7 +16,7 @@ class MainController
       ['name' => 'Статья 1', 'text' => 'Текст статьи 1'],
       ['name' => 'Статья 2', 'text' => 'Текст статьи 2'],
     ];
-//    include __DIR__ . '/../../../templates/main/main.php';
+//    include __DIR__ . '/../../../../templates/main/main.php';
     $this->view->renderHtml('EL_13/main/main.php', ['articles' => $articles]);
   }
   public function sayHello(string $name)

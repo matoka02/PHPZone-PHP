@@ -11,7 +11,7 @@ class EmailSender
     extract($templateVars);
 
     ob_start();
-    require __DIR__.'/../../../templates/EL_30/mail/' . $templateName;
+    require __DIR__.'/../../../../templates/EL_30/mail/' . $templateName;
     $body = ob_get_contents();
     ob_end_clean();
 
