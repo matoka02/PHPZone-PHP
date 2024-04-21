@@ -34,9 +34,9 @@ try {
   $controller = new $controllerName();
   $controller->$actionName(...$matches);
 } catch (\src\MyProject\EL_29\Exceptions\DbException $e) {
-  $view = new \src\MyProject\EL_29\View\View(__DIR__ . '/../../src/templates/EL_29/errors');
+  $view = new \src\MyProject\EL_29\View\View(__DIR__ . '/../../templates/EL_29/errors');
   $view->renderHtml('500.php', ['error' => $e->getMessage()], 500);
 } catch (\src\MyProject\EL_29\Exceptions\NotFoundException $e) {
-  $view = new \src\MyProject\EL_29\View\View(__DIR__ . '/../../src/templates/EL_29/errors');
+  $view = new \src\MyProject\EL_29\View\View(__DIR__ . '/../../templates/EL_29/errors');
   $view->renderHtml('404.php', ['error' => $e->getMessage()], 404);
 }

@@ -70,9 +70,9 @@ try {
   $controller->$actionName(...$matches);
 } catch (\src\MyProject\EL_27\Exceptions\DbException $e) {
   // echo $e->getMessage();
-  $view = new \src\MyProject\EL_26\View\View(__DIR__ . '/../../src/templates/EL_26/errors');
+  $view = new \src\MyProject\EL_26\View\View(__DIR__ . '/../../templates/EL_26/errors');
   $view->renderHtml('500.php', ['error' => $e->getMessage()], 500);
 } catch (\src\MyProject\EL_26\Exceptions\NotFoundException $e) {
-  $view = new \src\MyProject\EL_26\View\View(__DIR__ . '/../../src/templates/EL_26/errors');
+  $view = new \src\MyProject\EL_26\View\View(__DIR__ . '/../../templates/EL_26/errors');
   $view->renderHtml('404.php', ['error' => $e->getMessage()], 404);
 }

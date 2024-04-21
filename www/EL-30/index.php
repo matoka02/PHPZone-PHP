@@ -34,15 +34,15 @@ try {
   $controller = new $controllerName();
   $controller->$actionName(...$matches);
 } catch (\src\MyProject\EL_30\Exceptions\DbException $e) {
-  $view = new \src\MyProject\EL_30\View\View(__DIR__ . '/../../src/templates/EL_30/errors');
+  $view = new \src\MyProject\EL_30\View\View(__DIR__ . '/../../templates/EL_30/errors');
   $view->renderHtml('500.php', ['error' => $e->getMessage()], 500);
 } catch (\src\MyProject\EL_30\Exceptions\NotFoundException $e) {
-  $view = new \src\MyProject\EL_30\View\View(__DIR__ . '/../../src/templates/EL_30/errors');
+  $view = new \src\MyProject\EL_30\View\View(__DIR__ . '/../../templates/EL_30/errors');
   $view->renderHtml('404.php', ['error' => $e->getMessage()], 404);
 } catch (\src\MyProject\EL_30\Exceptions\UnauthorizedException $e) {
-  $view = new \src\MyProject\EL_30\View\View(__DIR__ . '/../../src/templates/EL_30/errors');
+  $view = new \src\MyProject\EL_30\View\View(__DIR__ . '/../../templates/EL_30/errors');
   $view->renderHtml('401.php', ['error' => $e->getMessage()], 401);
 } catch (\src\MyProject\EL_30\Exceptions\Forbidden $e) {
-  $view = new \src\MyProject\EL_30\View\View(__DIR__ . '/../../src/templates/EL_30/errors');
+  $view = new \src\MyProject\EL_30\View\View(__DIR__ . '/../../templates/EL_30/errors');
   $view->renderHtml('403.php', ['error' => $e->getMessage()], 403);
 }
