@@ -1,6 +1,6 @@
 <?php
 
-/*---Editing blog articles in PHP---*/
+/*---Adding comments to the article---*/
 
 // Перейти в браузере
 // http://127.0.0.1/openserver/phpmyadmin/index.php
@@ -34,15 +34,15 @@ try {
   $controller = new $controllerName();
   $controller->$actionName(...$matches);
 } catch (\src\MyProject\EL_32\Exceptions\DbException $e) {
-  $view = new \src\MyProject\EL_32\View\View(__DIR__ . '/../../src/templates/EL_32/errors');
+  $view = new \src\MyProject\EL_32\View\View(__DIR__ . '/../../templates/EL_32/errors');
   $view->renderHtml('500.php', ['error' => $e->getMessage()], 500);
 } catch (\src\MyProject\EL_32\Exceptions\NotFoundException $e) {
-  $view = new \src\MyProject\EL_32\View\View(__DIR__ . '/../../src/templates/EL_32/errors');
+  $view = new \src\MyProject\EL_32\View\View(__DIR__ . '/../../templates/EL_32/errors');
   $view->renderHtml('404.php', ['error' => $e->getMessage()], 404);
 } catch (\src\MyProject\EL_32\Exceptions\UnauthorizedException $e) {
-  $view = new \src\MyProject\EL_32\View\View(__DIR__ . '/../../src/templates/EL_32/errors');
+  $view = new \src\MyProject\EL_32\View\View(__DIR__ . '/../../templates/EL_32/errors');
   $view->renderHtml('401.php', ['error' => $e->getMessage()], 401);
 } catch (\src\MyProject\EL_32\Exceptions\Forbidden $e) {
-  $view = new \src\MyProject\EL_32\View\View(__DIR__ . '/../../src/templates/EL_32/errors');
+  $view = new \src\MyProject\EL_32\View\View(__DIR__ . '/../../templates/EL_32/errors');
   $view->renderHtml('403.php', ['error' => $e->getMessage()], 403);
 }

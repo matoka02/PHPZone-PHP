@@ -31,3 +31,14 @@
 a, a:visited {
     color: darkgreen;
 }
+
+.comment{
+    background: rgba(0, 128, 128, 0.2);
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+}
+.comment__user{
+    display: block;
+    font-weight: 800;
+
+}

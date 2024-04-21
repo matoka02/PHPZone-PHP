@@ -6,6 +6,7 @@ return [
   '~^articles/(\d+)$~' => [\src\MyProject\EL_32\Controllers\ArticlesController::class, 'view'],
   '~^articles/(\d+)/edit$~' => [\src\MyProject\EL_32\Controllers\ArticlesController::class, 'edit'],
   '~^articles/add$~' => [\src\MyProject\EL_32\Controllers\ArticlesController::class, 'add'],
+  '~^articles/(\d+)/comments$~' => [\src\MyProject\EL_32\Controllers\ArticlesController::class, 'comments'],
   '~^users/register$~' => [\src\MyProject\EL_32\Controllers\UsersController::class, 'signUp'],
   '~^users/(\d+)/activate/(.+)$~' => [\src\MyProject\EL_32\Controllers\UsersController::class, 'activate'],
   '~^users/login$~' => [\src\MyProject\EL_32\Controllers\UsersController::class, 'login'],
