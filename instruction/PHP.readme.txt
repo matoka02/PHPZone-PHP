@@ -1,0 +1,61 @@
+VSCode
+- запуск в терминале VSCode
+PS C:\OSPanel\domains> php -S localhost:5000
+- переход на localhost:5000 в браузере
+http://myproject.loc/
+
+PHPStorm
+- запуск сервера, 
+C:\OSPanel\Open Server Panel.exe
+- в трее команда Запустить
+- в PHPStorm открыть index.php в браузере
+- или переход на http://myproject.loc/ в браузере
+
+
+ООП в PHP
+22 Вставка с помощью Active Record 
+https://php.zone/oop-v-php-prodvinutyj-kurs/vstavka-v-bd-cherez-active-record-v-php
+23 Удаление в Active Record
+https://php.zone/oop-v-php-prodvinutyj-kurs/udalenie-v-active-record-na-php
+24 CRUD-операции
+https://php.zone/oop-v-php-prodvinutyj-kurs/chto-takoe-crud-operacii
+25 M в MVC
+https://php.zone/oop-v-php-prodvinutyj-kurs/model-v-mvc-na-php
+26 Работа с исключениями в PHP
+https://php.zone/oop-v-php-prodvinutyj-kurs/exceptions-v-php
+27. Пишем регистрацию на сайте на PHP
+https://php.zone/oop-v-php-prodvinutyj-kurs/kak-sdelat-registraciyu-na-sayte-na-php-forma-registracii
+28. Система активации пользователей по email на PHP
+https://php.zone/oop-v-php-prodvinutyj-kurs/kak-sdelat-aktivaciyu-polzovateley-po-email-na-php
+29. Пишем систему авторизации на PHP
+https://php.zone/oop-v-php-prodvinutyj-kurs/kak-sdelat-avtorizaciyu-na-sayte-na-php-forma-vhoda
+30. Добавляем статьи в блог на PHP
+https://php.zone/oop-v-php-prodvinutyj-kurs/sozdanie-zapisey-v-bloge-na-php
+31. Редактируем статьи в блоге на PHP
+https://php.zone/oop-v-php-prodvinutyj-kurs/redaktirovanie-statey-na-sayte-na-php
+32. Задание для самостоятельной работы – доводим блог до ума
+https://php.zone/oop-v-php-prodvinutyj-kurs/zadanie-dlya-samostoyatelnoy-raboty
+33. Пишем свой фреймворк на PHP
+https://php.zone/oop-v-php-prodvinutyj-kurs/pishem-svoy-freymvork-na-php
+
+Курс PHP для профессионалов
+1. Command Line Interface в PHP
+https://php.zone/php-dlya-professionalov/cli-v-php
+2. Менеджер пакетов Composer
+https://php.zone/php-dlya-professionalov/composer-menedzher-paketov-v-php
+3. Взаимодействие сервисов и REST API
+https://php.zone/php-dlya-professionalov/rest-api-dlya-vzaimodeystviya-servisov
+4. Регулярные выражения в PHP
+https://php.zone/php-dlya-professionalov/regulyarki-v-php
+5. Учимся писать безопасный код на PHP
+https://php.zone/php-dlya-professionalov/kak-pisat-bezopasnyy-kod-na-php
+6. Управление памятью в PHP
+https://php.zone/php-dlya-professionalov/upravlenie-pamyatyu-v-php
+7. Стандарты PSR
+https://php.zone/php-dlya-professionalov/standarty-psr-v-php
+8. Планировщик заданий cron
+https://php.zone/php-dlya-professionalov/planirovshchik-zadaniy-cron
+9. Делаем пагинацию на PHP
+https://php.zone/php-dlya-professionalov/pagination-php
+10. Пагинация на PHP для большого количества записей
+https://php.zone/php-dlya-professionalov/paginaciya-na-php-dlya-bolshogo-kolichestva-zapisey
